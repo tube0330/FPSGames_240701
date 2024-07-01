@@ -1,0 +1,29 @@
+우클릭 - UI - 캔버스(이름: UI)
+UI 우클릭 이미지 만들기(이름: Image_HPFrame) 크기, 위치 조절
+
+캔버스 선택 후 canvas scaler에서 드롭박스 내려서 scale wuth screen size로 만들고 바로 밑에 화면크기에 맞춰줌
+
+Image_HPFrame 색상 수정
+
+Image_HPFrame 복제하고 이름: Image_HPBar
+
+Image_HPBar 색상 변경하고 source image를 hp bar로 넣고 filled horizental로 변경
+
+---FPSDamage 스크립트 생성하고 FPSConstroller에 넣음---
+
+UI - legacy - text 만들고 위치 조절
+horizental, vertical 다 overflow로 만듦
+
+fps 컨트롤러에 가서 fps데미지 스크립트에 이미지랑 텍스트 넣음
+
+스켈레톤 - 3d오브직트 - cube - 이름: Damage_Box , 매시렌더러 체크해제하고 메시 렌더러에 머티어리얼의 머티어리얼 red_m으로 바꾸고 박스 콜라이더, 매시렌더러 체크해제
+
+편집하고 싶은 걸 복제하고 동작도 복제해서 에니매이터 요소를 누르고 복제한 동작 넣음
+
+스캘래톤 잡고 윈도우 - 애니메이션 - 애니메이션
+
+스캘레톤의 컴포넌트에 데미지 박스를 col과 rend에 넣음
+
+태그 만들어서 데미지 박스에 태그를 넣음
+
+스켈레톤 잡고 윈도우 - 애내메이션 - 애니메이션 - event추가해서 box col enable, disable
